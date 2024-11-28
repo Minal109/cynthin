@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100;
+
+}
+#minicircle {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    -ms-transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+#main{
+    width: 100%;
+   
+   
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    position: relative;
+    
+    
+}
+#nav {
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.heading {
+margin-top: 90px;
+}
+
+#heading h1 {
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: 9vw;
+    text-transform: uppercase;
+    line-height: 1;
+    opacity: .6;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+ #heading #secondh10 {
+    margin-left: 160px;
+    
+
+}
+.blocktext {
+    background-color: black;
+    width: fit-content;
+    
+}
+.blocktext h5 {
+    text-align: right;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+#chhotiheading{
+ margin-top: 100px;
+ padding-right: 50px;
+ 
+
+}
+#chhotiheading h5{
+    margin-top: .5vw;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1vw;
+}
+#herofooter {
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+
+}
+#herofooter a{
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+#herofooter .circle {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:aliceblue;
+    color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#second {
+    padding-top: 200px; 
+    padding-right: 10vw;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.elem {
+    width: 90%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    position: relative;
+    color: #fff;
+    border-top: 1px solid #888;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.elem h1{
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .7;
+   
+}
+.elemlast {
+    border-bottom: 1px solid #888;
+}
+
+.elem img{
+    display: none;
+    opacity: 0;
+    height: 140px;
+position: absolute;
+z-index: 999;
+}
+#about{
+    width: 100%;
+    padding: 10vw 5vw;
+    padding-left: 20vw;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+     /* justify-content: space-between;  */
+    gap: 20px;
+}
+#textabout {
+    width: 25rem;
+    
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+    /* font-size: 20px; */
+}
+#textabout a {
+    padding: 12px 22px;
+    border:1px solid #fff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+ #about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+#subscribe {
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 10vw;
+    background-color: black;
+}
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: .6;
+
+}
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer {
+    padding:40px 30px;  /*------TB & Rl*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color:#fff;
+}
+#footerleft{
+    display: flex;
+    gap: 20px;
+}
+#footerright{
+    display: flex;
+    gap: 20px;
+}
+#footer a{
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+
+}
